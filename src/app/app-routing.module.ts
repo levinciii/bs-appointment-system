@@ -8,12 +8,13 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'team', component: TeamComponent },
-  { path: 'facilities', component: FacilitiesComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'login', component: LoginComponent }
+  { path: 'home', title: 'Bustamante-Segovia Dental Clinic', component: HomeComponent },
+  { path: 'about', title: 'About Us', component: AboutComponent },
+  { path: 'team', title: 'The Dental Team', component: TeamComponent },
+  { path: 'facilities', title: 'Facilities', component: FacilitiesComponent },
+  { path: 'contact', title: 'Contact Us', component: ContactComponent },
+  { path: 'login', title: 'Log In', component: LoginComponent },
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
