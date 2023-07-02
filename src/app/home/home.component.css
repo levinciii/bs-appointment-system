@@ -1,6 +1,6 @@
 .ctr {
     margin: auto;
-    width: 70%;
+    width: auto;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -35,4 +35,8 @@
     outline-color: #2EA3F2;
     color: #ffffff;
     background-color: rgba(92, 163, 210, 0.550);
+}
+
+.car-size{
+    height: 400px;
 }
