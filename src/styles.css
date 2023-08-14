@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+.ctr {
+    margin: auto;
+    width: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.dropdown-item {
+    background-color: transparent;
+}
+
+.nav-c {
+    color: #2EA3F2;
+    font-weight: 500;
+}
+
+.nav-c:hover {
+    color: rgba(92, 163, 210, 0.550);
+}
+
+.nav-c-bg {
+    outline: auto;
+    outline-color: #2EA3F2;
+
+}
+
+.nav-c-bg:hover {
+    outline: auto;
+    outline-color: #2EA3F2;
+    color: #ffffff;
+    background-color: rgba(92, 163, 210, 0.550);
+}
+
+.car-size{
+    height: 400px;
+}
