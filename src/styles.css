@@ -40,4 +40,12 @@
 
 .car-size{
     height: 400px;
+    background-color: rgb(53, 53, 53);
+    opacity: 0.8;
+}
+
+.login-container {
+    margin-top: 5%;
+    display: grid;
+    place-items: center;
 }
